@@ -1,0 +1,231 @@
+﻿body {
+    background-color: #f2f2f2;
+}
+
+/* User Form */
+
+.user_form {
+    width: 20%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px 7px rgba(179,166,179,1);
+}
+
+.title_form {
+    display: block;
+    height: 70px;
+    color: #ffffff;
+    background: #42a9d4;
+    font-family: Cuprum, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.title_form span {
+    font-weight: 900;
+}
+
+.login_block {
+    display: block;
+    color: #9d9d9b;
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+}
+
+.icons {
+    display: inline-block;
+    min-width: 20px;
+}
+
+.input_form {
+    border-style: none;
+    border-bottom: 1px solid #9d9d9b;
+    width: 80%;
+    outline: none;
+    margin-left: 10px;
+}
+
+.input_form::placeholder {
+    color: #e6e4e4;
+}
+
+.label_form {
+    font-family: Cuprum;
+    font-size: 14px;
+    color: #888887;
+}
+
+.role_block {
+    display: block;
+    color: #9d9d9b;
+    padding: 20px 15px 15px 15px;
+    font-size: 18px;
+}
+
+.select_form {
+    border-style: none;
+    border-bottom: 1px solid #9d9d9b;
+    width: 80%;
+    outline: none;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: block;
+    padding: 25px 0px 10px 0px;
+}
+
+.button_add {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #42a9d4;
+    border: 1px solid #42a9d4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Cuprum;
+    font-size: 18px;
+}
+
+.button_add:hover {
+    background-color: #fff;
+    color: #42a9d4;
+}
+
+.button_link {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Cuprum;
+    font-size: 14px;
+    color: #42a9d4;
+    text-transform: uppercase;
+}
+
+.button_link:hover {
+    text-decoration: underline;
+}
+
+/* Users List */
+
+.form_list {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.form1 {
+    width: 25%;
+    margin: 30px auto;
+    background-color: #052530;
+    border-radius: 10px;
+}
+
+.users_list {
+    width: 100%;
+}
+
+    .users_list:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.mycheckbox input[type="checkbox"] {
+    margin-right: 50px;
+}
+
+.rows {
+    background-color: #42a9d4;
+    font-family: Cuprum;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+tr {
+    font-family: Cuprum;
+    color: #000;
+    font-size: 18px;
+}
+
+    tr:hover {
+        background-color: #bbbaba;
+    }
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.button_delete {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #42a9d4;
+    border: 1px solid #42a9d4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Cuprum;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button_back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #42a9d4;
+    border: 1px solid #42a9d4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Cuprum;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+    margin-right: 100px;
+}
+
+.button_delete:hover, .button_back:hover {
+    background-color: #fff;
+    color: #42a9d4;
+}
+
+.checkbox {
+    width: 200px;
+    float: left;
+}
+
+.button_edit {
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button_edit a {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #42a9d4;
+    border: 1px solid #42a9d4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Cuprum;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.button_edit a:hover {
+    background-color: #ffffff;
+    color: #42a9d4;
+}
